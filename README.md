@@ -2,8 +2,7 @@
 ## Setup
 1. Clone the repo
 ## Installation
-
-3. Run: ```bash
+```bash
 npm install
 ```
 5. Create a `.env` file with:
