@@ -1,29 +1,32 @@
 # CRUD_appwrite
 ## Setup
-1. Clone the repo
+Clone the repo
 ## Installation
 ```bash
 npm install
 ```
-5. Create a `.env` file with:
-         >APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-         >APPWRITE_PROJECT_ID=xxxxxxx
-         >APPWRITE_API_KEY=xxxxxxxx
-6. Run `npm index.js`
-7. Use API Tools like Postmen to:
-    1.POST: http://localhost:3000/notes    //create
-        *use json body format:
-                  {
-                    "title":"something",
-                    "Author":"something"
-                  }
-    2.GET: http://localhost:3000/notes    //read
-    3.PUT: http://localhost:3000/notes/:id //update
+## Create a `.env` file with:
+         APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+         APPWRITE_PROJECT_ID=xxxxxxx
+         APPWRITE_API_KEY=xxxxxxxx
+##Usage
+```bash
+npm index.js
+```
+## Use API Tools like Postmen to:
+1.POST: http://localhost:3000/notes    //create
+*use json body format:
+         {
+                  "title":"something",
+                  "Author":"something"
+         }
+2.GET: http://localhost:3000/notes    //read
+3.PUT: http://localhost:3000/notes/:id //update
         *use json body format:
                   1. For title:
                          {"title":"updated_title"}
                   2. Same for author.
-    4.DELETE: http://localhost:3000/notes/:id //delete
+4.DELETE: http://localhost:3000/notes/:id //delete
 
 ## Test imagaes: 
 1. POST
