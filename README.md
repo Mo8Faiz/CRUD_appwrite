@@ -1,13 +1,17 @@
 # CRUD_appwrite
 ## Setup
 1. Clone the repo
-2. Run `npm install`
-3. Create a `.env` file with:
+## Installation
+
+3. Run: ```bash
+npm install
+```
+5. Create a `.env` file with:
          >APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
          >APPWRITE_PROJECT_ID=xxxxxxx
          >APPWRITE_API_KEY=xxxxxxxx
-4. Run `npm index.js`
-5. Use API Tools like Postmen to:
+6. Run `npm index.js`
+7. Use API Tools like Postmen to:
     1.POST: http://localhost:3000/notes    //create
         *use json body format:
                   {
