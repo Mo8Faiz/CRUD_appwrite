@@ -3,24 +3,24 @@
 1. Clone the repo
 2. Run `npm install`
 3. Create a `.env` file with:
-         APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-         APPWRITE_PROJECT_ID=xxxxxxx
-         APPWRITE_API_KEY=xxxxxxxx
+         >APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+         >APPWRITE_PROJECT_ID=xxxxxxx
+         >APPWRITE_API_KEY=xxxxxxxx
 4. Run `npm index.js`
 5. Use API Tools like Postmen to:
-    >POST: http://localhost:3000/notes    //create
+    1.POST: http://localhost:3000/notes    //create
         *use json body format:
                   {
                     "title":"something",
                     "Author":"something"
                   }
-    >GET: http://localhost:3000/notes    //read
-    >PUT: http://localhost:3000/notes/:id //update
+    2.GET: http://localhost:3000/notes    //read
+    3.PUT: http://localhost:3000/notes/:id //update
         *use json body format:
                   1. For title:
                          {"title":"updated_title"}
                   2. Same for author.
-    >DELETE: http://localhost:3000/notes/:id //delete
+    4.DELETE: http://localhost:3000/notes/:id //delete
 
 ## Test imagaes: 
 1. POST
