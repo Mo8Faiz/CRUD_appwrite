@@ -13,9 +13,11 @@ npm install
 ```bash
 npm index.js
 ```
-## Use API Tools like Postmen to:
-POST: http://localhost:3000/notes    //create
-*use json body format:
+# Use API Tools like Postmen to:
+## POST
+http://localhost:3000/notes    //create
+
+use json body format:
          {
                   "title":"something",
                   "Author":"something"
