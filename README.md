@@ -17,18 +17,21 @@ npm index.js
 ## POST
 http://localhost:3000/notes    //create
 
+use json body format
+{
+"title":"something",
+"Author":"something"
+}
+## GET
+http://localhost:3000/notes    //read
+## PUT
+http://localhost:3000/notes/:id //update
 use json body format:
-         {
-                  "title":"something",
-                  "Author":"something"
-         }
-GET: http://localhost:3000/notes    //read
-PUT: http://localhost:3000/notes/:id //update
-        *use json body format:
-                  1. For title:
-                         {"title":"updated_title"}
-                  2. Same for author.
-DELETE: http://localhost:3000/notes/:id //delete
+1. For title
+{"title":"updated_title"}
+2. Same for author.
+## DELETE
+http://localhost:3000/notes/:id //delete
 
 ## Test imagaes: 
 1. POST
